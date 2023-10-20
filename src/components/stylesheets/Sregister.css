@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --dark-blue: #1d3557;
+    --white : #f1faee;
+    --yellow: #f29d4a;
+    --darker-blue: #1d3577;
+}
+
+.register{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Left Section begins here  */
+
+.register .left{
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.register .left .heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2%;
+    margin-left: 22%;
+    font-size: 3em;
+    font-weight: 700;
+    margin-top: 8%;
+}
+
+
+.register .left .heading button{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    background: none;
+}
+
+.register .left .heading button span{
+    font-size: 0.5rem;
+}
+
+
+/* Card formation begins here */
+
+.register .left .card{
+    margin-left: 16%;
+    padding: 3vw;
+    padding-top: 3%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.register .left .card .head{
+    font-size: 2.8em;
+    font-weight: 600;
+}
+.register .left .card .subhead{
+    width: 110%;
+    margin-top: 2vh;
+    font-size: 1.1em;
+    font-weight: 400;
+    color: #4a4a4a;
+
+}
+
+.register .left .card .form form{
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: column;
+}
+.register .left .card .form label{
+    margin-top: 2vh;
+    font-size: 1.5em;
+}
+.register .left .card .form form input[type='text']{
+    padding: 2%;
+    font-size: 110%;
+    color: #151515;
+    margin-top: 2vh;
+    border-radius: 0.5em;
+    border: 2px solid #dddddd;
+    width: 125%;
+    outline: none;
+    height: 4vh;
+    transition: all 0.3s ease-in;
+}
+.register .left .card .form form input[type='text']::placeholder{
+    color: #dddddd;
+}
+.register .left .card .form form input[type='text']:focus{
+    border: 2px solid #4a4a4a;
+}
+.register .left .card .form form input[type='submit']{
+    margin-top: 5vh;
+    border-radius: 0.5em;
+    height: 5vh;
+    background: var(--dark-blue);
+    color: #ffffff;
+    border: none;
+    font-size: 120%;
+    width: 125%;
+    transition: all 0.3s ease-in;
+}
+.register .left .card .form form input[type='submit']:hover{
+    background: var(--darker-blue);
+}
+
+.register .left .card .foot{
+    width: 120%;
+    margin-top: 5vh;
+    font-size: 1em;
+    font-weight: 500;
+    color: #4a4a4a;
+}
+.register .left .card .foot a{
+    color: var(--yellow);
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+}
+.register .left .card .foot a:hover{
+    color: var(--dark-blue);
+}
+
+
+/* Right section begins here */
+
+.register .right{
+    background-color: var(--dark-blue);
+    width: 50vw;
+    height: 100vh;
+}

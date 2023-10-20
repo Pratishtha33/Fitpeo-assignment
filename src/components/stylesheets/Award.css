@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+#awards{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.awards-sub-sec{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+.awards-ssl{
+    flex: 1;
+    border-right: 0.3px solid var(--light-grey);
+}
+.awards-ssr{
+    flex: 3;
+    border-bottom:  0.3px solid var(--light-grey);
+}
+#publications{
+    display: flex;
+}
+.publications-card{
+    
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+}
+.publications-card h3{
+    font-size: 1vw;
+    color: black;
+    opacity: 0.9;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-weight: 600;
+}
+#test{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#test h5{
+    cursor:pointer;
+}
+.publications-card h5{
+    font-size: 0.8vw;
+    color: var(--dark-blue);
+    font-family: 500;
+}
+.section-lft{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: 0.3px solid var(--light-grey);
+    text-align: center;
+    color: var(--dark-blue);
+    text-transform: uppercase;
+    font-weight: 500!important;
+    border-bottom:  0.3px solid var(--light-grey);
+}
+.publications-card button{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 1px solid grey;
+    cursor: pointer;
+    font-size: 0.9vw;
+    font-weight: 500;
+    color: rgb(92, 89, 89);
+}
+
+.publications-card p{
+    font-size: 0.8vw;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#show-items{
+    transition: opacity 0.6s ease-in-out;
+}
+.crud-buttons{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+#btn-rgt button{
+    margin-right: 10px;
+}
+.crud-buttons button{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    border: 0.01px solid rgb(209, 205, 205);
+    padding: 10px 10px;
+    font-size: 0.8vw;
+    cursor: pointer;
+    border-radius: 1.1vw;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+#save{
+    background-color: rgb(91, 124, 91);
+    color: white;
+    margin-left: 5px;
+}
+
+#publications-form{
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 0vw;
+    border-bottom: 0.1px solid var(--light-grey);
+}
+
+#publications-form div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+}
+#publications-form div p{
+    font-size: 0.8vw;
+    font-weight: 600;
+}
+
+#publications-form input, textarea{
+    border: none;
+    width: 70%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    border: 0.1px solid #c0c0c0;
+}
+#publications-form input{
+    height: 1.5vw;
+}
+.text-area{
+    padding-bottom: 0px;
+}
+
+textarea:focus{
+    outline: none;
+}

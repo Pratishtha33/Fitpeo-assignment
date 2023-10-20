@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --dark-blue: #1d3557;
+    --white : #f1faee;
+    --yellow: #f29d4a;
+    --darker-blue: #1d3577;
+}
+.pp section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.pp .profile-heading{
+    flex: 0.7;
+    margin-left: 1vw;
+}
+.pp-section{
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    width: 70vw;
+    height: auto;
+}
+.MuiTableCell-root{
+    padding: 0.9vw !important;
+    font-size: 0.9vw !important;
+    
+}
+.MuiTableCell-head{
+    font-weight: 600 !important;
+    color: #1d3557 !important;
+    font-family: 'Open Sans', sans-serif !important;
+}
+.imp-points{
+    background-color: white !important;
+    border-top: 1px solid rgb(228, 228, 228);
+}
+.imp-points p {
+    font-size: 0.8vw;
+    padding: 1vw;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+.imp-points p li{
+   text-align: start;
+   padding-bottom: 0.5vw;
+}
+#arx{
+    width: 40%;
+}
+
+#save-changes{
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}

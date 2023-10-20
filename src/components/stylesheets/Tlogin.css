@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --dark-blue: #1d3557;
+    --white : #f1faee;
+    --yellow: #f29d4a;
+    --darker-blue: #1d3577;
+}
+
+.tlogin{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Left Section begins here  */
+
+.tlogin .left{
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.tlogin .left .heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2%;
+    margin-left: 22%;
+    font-size: 3em;
+    font-weight: 700;
+    margin-top: 15%;
+}
+
+.tlogin .left .heading button{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    background: none;
+}
+
+.tlogin .left .heading button span{
+    font-size: 0.5rem;
+}
+
+/* Card formation begins here */
+
+.tlogin .left .card{
+    margin-left: 16%;
+    padding: 3vw;
+    padding-top: 3%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.tlogin .left .card .head{
+    font-size: 2.8em;
+    font-weight: 600;
+}
+.tlogin .left .card .subhead{
+    width: 110%;
+    margin-top: 2vh;
+    font-size: 1.1em;
+    font-weight: 400;
+    color: #4a4a4a;
+
+}
+
+.tlogin .left .card .form form{
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: column;
+}
+.tlogin .left .card .form label{
+    margin-top: 2vh;
+    font-size: 1.5em;
+}
+.tlogin .left .card .form form input[type='text']{
+    padding: 2%;
+    font-size: 110%;
+    color: #151515;
+    margin-top: 2vh;
+    border-radius: 0.5em;
+    border: 2px solid #dddddd;
+    width: 125%;
+    outline: none;
+    height: 4vh;
+    transition: all 0.3s ease-in;
+}
+.tlogin .left .card .form form input[type='text']::placeholder{
+    color: #dddddd;
+}
+.tlogin .left .card .form form input[type='text']:focus{
+    border: 2px solid #4a4a4a;
+}
+.tlogin .left .card .form form input[type='submit']{
+    margin-top: 5vh;
+    border-radius: 0.5em;
+    height: 5vh;
+    background: var(--dark-blue);
+    color: #ffffff;
+    border: none;
+    font-size: 120%;
+    width: 125%;
+    transition: all 0.3s ease-in;
+}
+.tlogin .left .card .form form input[type='submit']:hover{
+    background: var(--darker-blue);
+}
+
+/* Right section begins here */
+
+.tlogin .right{
+    background-color: var(--dark-blue);
+    width: 50vw;
+    height: 100vh;
+}

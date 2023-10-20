@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+#projects{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+.skills{
+    flex: 1;
+    display: flex;
+    border-bottom: 0.1px solid var(--light-grey);
+
+}
+.projects{
+    flex: 3;
+    display: flex;
+    border-bottom: 0.1px solid var(--light-grey);
+    padding-bottom: 10px;
+}
+#skills-lft{
+    flex: 1;
+    border-right: 0.3px solid var(--light-grey);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#skills-rgt{
+    padding-top: 10px;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+#projects-rgt{
+    flex: 3;
+    
+}
+#projects-lft{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: 0.3px solid var(--light-grey);
+}
+
+#projects h3{
+    text-align: center;
+    font-weight: 500;
+    color: var(--dark-blue);
+}
+#projects #skill-cards{
+    margin-left: 1vw; 
+}
+#projects #skill-card{
+    font-size: 0.8vw;
+    color: rgb(47, 46, 46);
+    padding-top: 0.3vw;
+    padding-bottom: 0.3vw;
+    padding-left: 0.6vw;
+    padding-right: 0.6vw;
+    border: none;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+#add-more-skills{
+    margin-top: 1vw;
+    display: flex;
+    flex-direction: row;
+    margin-left: 1vw;
+}
+
+#add-more-skills input{
+    border: 1px solid var(--darker-blue);
+    height: 1.4vw;
+    width: 15vw !important;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 15px 0px 0px 15px;
+    text-align: left; 
+    padding-left: 1vw;  
+}
+input:focus {
+    outline: none;
+  }
+
+#add-more-skills button{
+    background-color: var(--dark-blue);
+    color: white;
+    font-size: 0.8vw;
+    height: 1.4vw;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    border-radius: 0px 15px 15px 0px;
+}
+
+#projects-rgt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#project-card{
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    padding: 15px;
+    margin-top: 10px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    border-left: none !important;
+}
+#project-card-top{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+}
+#top-rgt{
+    color: var(--dark-blue);
+}
+#top-rgt a{
+    color: var(--dark-blue) !important;
+    margin: 2px;
+    font-size: 0.9vw;
+}
+#top-lft h4{
+    font-size: 1vw;
+    color: var(--dark-blue);
+    margin-top: 2px;
+   
+}
+#top-lft h5{
+    
+    font-size: 0.8vw;
+    margin-bottom: 2px;
+    color: rgb(122, 119, 119);
+}
+#project-card-mid{
+    margin-top: 1px;
+    font-size: 0.8vw;
+    margin-bottom: 2px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+#project-card-btm{
+    font-size: 0.8vw;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--dark-blue);
+    font-weight: 700;
+}

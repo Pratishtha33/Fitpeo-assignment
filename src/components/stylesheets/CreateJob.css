@@ -1,0 +1,129 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+  }
+  
+  .notifications {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 8px 24px;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    height: 65px;
+  }
+  
+  .nav-logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-link {
+    background-color: #00897B;
+    color: #fff;
+    padding: 8px 16px;
+    margin-right: 8px;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdown-menu li {
+    padding: 8px 16px;
+  }
+  
+  .dropdown-menu li a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .main {
+    background-color: #fff;
+    padding: 16px;
+  }
+  
+  .job-info {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .job-info label {
+    display: block;
+    margin-bottom: 8px;
+    color: #000;
+    font-size: 14px;
+  }
+  
+  .job-info input,
+  .job-info select,
+  .job-info textarea {
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 12px;
+  }
+  
+  .payment {
+    margin-bottom: 16px;
+  }
+  
+  .payment h4 {
+    margin-bottom: 8px;
+  }
+  
+  .payment p {
+    background-color: #eee;
+    padding: 12px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .payment span {
+    margin-right: 8px;
+  }
+  
+  .payment strong {
+    font-weight: bold;
+  }
+  
+  .footer {
+    padding: 16px;
+    text-align: center;
+    color: #666;
+    font-size: 12px;
+  }
+  

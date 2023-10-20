@@ -1,0 +1,69 @@
+:root{
+    --dark-blue: #1d3557;
+    --white : #f1faee;
+    --yellow: #f29d4a;
+    --darker-blue: #1d3577;
+    --grey: rgba(0,0,0,0.5);
+    --light-grey: rgba(0,0,0,0.2);
+}
+
+.admin-profile{
+    width: 90%;
+    height: 73vh;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+.admin-profile-top{
+    flex: 1;
+    height: 6vw;
+    background-color: #1d3557;
+}
+.admin-profile-btm{
+    flex: 5;
+    display: flex;
+    justify-content: center;
+}
+#admin-data{
+    
+    width: 75%;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+}
+#admin-data .card-sub-container{
+    margin-right: auto;
+    margin-left: auto;
+}
+#admin-data .main-head{
+    font-size: 1vw !important;
+    padding: 0.5vw;
+    font-weight: 600;
+    padding-left: 0vw;
+    color: #1d3557;
+}
+#admin-data .inside{
+    font-size: 0.85vw;
+    padding-left: 0.5vw;
+    padding-right: 1.5vw;
+    padding-top: 0.35vw;
+    padding-bottom: 0.35vw;
+    width: 90%;
+    background-color: rgb(229, 227, 227);
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border: none;
+    border-radius: 0.2vw;
+    cursor: pointer;
+}
+.admin-image{
+    height: 10vw;
+    width: 10vw;
+    border-radius: 50%;
+    margin-left: 1.5vw;
+    margin-top: 1.5vw;
+    border: 0.3vw solid white;
+}

@@ -1,0 +1,210 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --dark-blue: #1d3557;
+    --white : #f1faee;
+    --yellow: #f29d4a;
+    --darker-blue: #1d3577;
+}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:wght@300;400;500&display=swap');
+
+.job-details{
+    display: flex;
+    flex-direction: column;
+    margin: 1vw;
+    margin-right: 2vw;
+}
+.jd-top{
+    flex: 1.5;
+    
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+#jd-t-1{
+    flex: 1;
+
+}
+#jd-t-2{
+    flex: 6;
+
+    display: flex;
+    flex-direction: column;
+}
+#jd-t-2-1{
+    flex: 1.2;
+    
+    font-size: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 1vw;
+    margin-bottom: 0.2vw;
+}
+#jd-t-2-1 h3{
+    font-weight: 500 !important;
+}
+#small-icon{
+    color: grey;
+    font-size: 1vw;
+    margin-bottom: 1.3vw;
+    cursor: pointer;
+}
+#jd-t-2-2{
+    
+    margin-left: 1vw;
+    flex: 0.5;
+    font-size: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#jd-t-2-3{
+    
+    padding: 1vw;
+    padding-top: 0.2vw;
+    flex: 0.6;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.jd-rest{
+    flex: 4;
+    
+    display: flex;
+}
+.jd-rest-right{
+    flex: 1;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+}
+.jd-rest-left{
+    margin: 0.5vw;
+    flex: 4;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+#jdrr-1{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+.job-details #skill-card{
+    font-size: 0.8vw;
+    padding-top: 0.3vw;
+    padding-bottom: 0.3vw;
+}
+.skills-req{
+    padding: 0.8vw;
+    padding-top: 0.5vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+#jdrr-2 ul{
+    padding: 1vw;
+    padding-left: 2vw;
+    padding-top: 0.5vw;
+    font-size: 0.9vw;
+}
+#jdrr-2 ul li{
+    padding: 0.1vw;
+}
+#company-logo{
+   padding: 1vw ;
+   height: 12vw;
+   width: 12vw;
+}
+
+.jdt-details{
+    display: flex;
+    flex-direction: row;
+}
+#jdt-details-logo{
+    margin-top: 0.3vw;
+    margin-right: 0.5vw;
+    color: var(--dark-blue)
+}
+#icon-size{
+    font-size: 1.5vw;
+}
+#jdt-details-value{
+    color: var(--dark-blue);
+    display: flex;
+    flex-direction: column;
+}
+
+.jdrr h4{
+    padding: 0.8vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 0.6vw;
+    border-bottom: 0.5px solid rgb(127, 127, 127);
+}
+.jdrr{
+    margin: 0.5vw;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+
+.jdrl h3{
+    font-size: 1.2vw;
+    font-weight: 700;
+    color: #1d3557;
+    opacity: 0.98;
+}
+.jdrl{
+    font-family: 'Open Sans', sans-serif;
+    padding: 1vw;
+    padding-top: 0vw;
+}
+#jdrl-1{
+    padding-top: 1vw;
+}
+.jdrl p, ul, tr, td{
+    padding-top: 0.3vw;
+    font-size: 0.9vw;
+}
+.jdrl ul {
+    padding-left: 2vw;
+}
+.jdrl tr td{
+    color: #1d3557;
+    padding: 1vw;
+}
+#jdrl-4{
+    padding-bottom: 1.5vw;
+    border-bottom: 1px solid rgb(219, 218, 218);
+}
+.apply-btn{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1vw;
+}
+.jdrl-metrics{
+    margin-left: 1vw;
+    font-weight: 600;
+    font-size: 1vw;
+    margin-top: 2%;
+}
+.apply-btn button{
+    margin-right: 1vw;
+    margin-top: 1%;
+}
+.btn-primary{
+    background-color: var(--dark-blue);
+    color: white;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    font-size: 1vw;
+    border-radius: 0.3vw;
+    border: none;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}

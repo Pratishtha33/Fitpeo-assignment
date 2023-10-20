@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --dark-blue: #1d3557;
+    --white : #f1faee;
+    --yellow: #f29d4a;
+    --darker-blue: #1d3577;
+}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:wght@300;400;500&display=swap');
+
+
+.about-sec{
+    height: 100%;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+}
+.about-sec-lft{
+ 
+    flex: 1.51;
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+    border-right: 1px solid rgb(236, 229, 229);
+}
+.edit-item{
+    color: #1d3557;
+    text-align: right;
+    margin-right: 1vw;
+    font-size: 0.9vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+.about-sec .about-sec-rgt{
+    padding-top: 0.5vw ;
+    flex: 3;
+}
+.asl-top{
+    display: flex;
+    justify-content: center;
+}
+.asl-top img{
+    height: 13vw;
+    width:  13vw;
+    border-radius: 50%;
+    border: 0.1vw solid white;
+}
+
+.asl-top-btns{
+    display: flex;
+    justify-content: center;
+}
+.asl-top-btns .btn-primary{
+    margin: 0.5vw;
+    margin-top: 0.6vw;
+}
+
+
+.about-sec-rgt .main-head{
+    font-size: 0.9vw !important;
+    padding: 0.5vw;
+    font-weight: 600;
+    padding-left: 0vw;
+    color: #1d3557;
+}
+.about-sec-rgt .inside{
+    font-size: 0.85vw;
+    padding-left: 0.5vw;
+    padding-right: 1.5vw;
+    padding-top: 0.35vw;
+    padding-bottom: 0.35vw;
+    width: 90%;
+    background-color: rgb(229, 227, 227);
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border: none;
+    border-radius: 0.2vw;
+    cursor: pointer;
+}
+.about-sec #inside-val{
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    cursor:default;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.about-sec .card-sub-container{
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.asl-about{
+    padding: 0.4vw;
+    padding-left: 0.1vw;
+    padding-right: 0.1vw;
+}
+.asl-about h5{
+    font-size: 0.95vw;
+    font-weight: 600;
+    margin-bottom: 0.3vw;
+    margin-left: 0.2vw;
+    color: #1d3557;
+}
+.about-sec .asl-about p, textarea{
+    font-size: 0.8vw;
+    font-weight: 500;
+    padding: 0.5vw;
+    padding-left: 0.3vw;
+    padding-right: 0.3vw;
+    border: 0.1vw solid #c7c7c8;
+    border-radius: 0.5vw;
+}
+.about-sec textarea{
+    overflow: hidden;
+    resize: vertical;
+}
+.about-sec .inside-headline{
+    background-color: white;
+    height: auto;
+    width: 100%;
+    border: 0.1vw solid #c7c7c8;
+    font-family: 'Open Sans', sans-serif;
+    cursor: text;
+}
+.about-sec #inside-val{
+    cursor: text;
+}
+#about-txt{
+    min-height: 9.6vw;
+    cursor: text;
+}
+
+.asl-about p{
+    cursor: default;
+}

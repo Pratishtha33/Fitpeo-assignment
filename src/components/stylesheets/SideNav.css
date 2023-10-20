@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --dark-blue: #1d3557;
+    --white : #f1faee;
+    --yellow: #f29d4a;
+    --darker-blue: #1d3577;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:wght@300;400;500&display=swap');
+#SideNav{
+    width: 17vw;
+    height: 98vh;
+    background-color: var(--dark-blue);
+    border-radius: 10px;
+    margin: 1vh 0.5vh;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+ 
+    color: var(--white);
+    flex: 1;
+}
+.logo img{
+    padding: 3%;
+    width: 25%;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.logo h3{
+
+    padding: 20px;
+    padding-left: 2%;
+    font-size: 1.2vw;
+}
+#SideNav hr{
+    background-color: rgb(212, 210, 210);
+    height: 0.05vw;
+    opacity: 0.2;
+    border: none;
+}
+.navbar{
+    flex: 7;
+}
+.navbar ul{
+  margin-top: 20px;
+  color: #f1faee;
+  list-style-type: none;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 18px;
+}
+.navbar ul li{
+    font-size: 0.9vw;
+    cursor: pointer;
+    padding: 4.2%;
+    margin: 2%;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #f1faee;
+}
+.user-card{
+    display: flex;
+    flex-direction: row;
+    margin: 3.5%;
+}
+.logout{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5px;
+}
+.uc-left img{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+.uc-right{
+    margin-top:auto;
+    margin-bottom: auto;
+    margin-right: 5%;
+    margin-left: 6%;
+    color: #f1faee;
+    font-weight: 300;
+    font-style: normal;
+}
+.uc-right h4{
+    font-size: 0.9vw;
+}
+.uc-right p {
+    font-size: 0.8vw;
+}
+.fade{
+    opacity: 0.1;
+}
+
+.user-card p a{
+    text-decoration: none;
+    color: #f1faee;
+    opacity: 0.8;
+}

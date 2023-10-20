@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --dark-blue: #1d3557;
+    --white : #f1faee;
+    --yellow: #f29d4a;
+    --darker-blue: #1d3577;
+}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:wght@300;400;500&display=swap');
+
+.education-container{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sub-nav-bar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 1vw;
+    font-size: 1vw;
+    color: var(--dark-blue);
+    font-weight: 500;
+    border: 1px solid rgb(181, 178, 178);
+}
+.sub-nav-bar ul li{
+    cursor: pointer;
+}
+.education-container h5{
+    font-size: 1.5vw;
+    border-bottom: 1px solid rgb(211, 204, 204);
+    margin-bottom: 0.5vw;
+}
+
+.education-container .main-head{
+    font-size: 1vw !important;
+    padding: 0.5vw;
+    font-weight: 600;
+    padding-left: 0vw;
+}
+.education-container .inside{
+    font-size: 1vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    background-color: rgb(229, 227, 227);
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border: none;
+    border-radius: 0.2vw;
+    cursor: pointer;
+}
+
+.card-sub-container{
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.educard{
+    box-shadow: none !important;
+}

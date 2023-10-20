@@ -1,0 +1,316 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --dark-blue: #1d3557;
+    --white : #f1faee;
+    --yellow: #f29d4a;
+    --darker-blue: #1d3577;
+    --off-white:#F9FBFC;
+}
+
+.main-section{
+    display: flex;
+    flex-direction: row;
+    background-color: #F9FBFC;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.right-section{
+    margin-top: 1vh;
+}
+
+.top-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 4vw;
+}
+
+#top-nav-rgt{
+    font-size: 1.5vw;
+    font-weight: 600;
+    color: #393838;
+    margin-top: auto;
+    margin-bottom: auto;
+    flex: 2;
+}
+.icon {
+    margin-top: 0.3vw;
+    margin-left: 0.3vw;
+    display: inline-block;
+    transform: scaleX(-1) rotate(30deg);
+  }
+#top-nav-lft img{
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 3vw;
+    width: 3vw;
+    border-radius:50% ;
+    flex: 1;
+    margin-top: 0.5vw;
+    margin-right: 1.5vw;
+}
+#top-nav-hr{
+    background-color: rgb(158, 157, 157);
+    color: #a2a1a1;
+    height: 0.10vw !important;
+    width: 93%;
+    margin-left: 1.1vw;
+}
+
+
+/* Dashboard Main Container */
+.dashboard-mc{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-right: 1.5vw;
+}
+.metrics{
+    margin-left: 1.1vw;
+    flex: 1.4;
+    display: flex;
+    flex-direction: column;
+}
+.metrics-heading{
+    flex: 1;
+    margin-top: 1.5vw;
+    background-color: var(--off-white);
+    margin-bottom: 1.5vw;
+}
+.metrics-heading h3{
+    font-size: 2.5vw;
+}
+.metrics-heading h5{
+    margin-top: 0.3vw;
+    font-size: 1vw;
+    color: #393838;
+}
+
+.job-related{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5vw;
+    height: auto;
+}
+.job-history{
+    margin-top: 2vw;
+    flex: 2;
+}
+.recently-added{
+    margin-top: 2vw;
+    height: auto !important;
+    background: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.16) 1px 1px 5px 0px;
+    flex: 1;
+}
+
+.metrics-cards{
+    flex: 4;
+    display: flex;
+}
+.metric-card{
+    background-color: #ffffff;
+    border-radius: 20px;
+    height: 18vw;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 1px 1px 5px 0px;
+}
+#metric-card-1{
+    flex: 0.9;
+    display: flex;
+    justify-content: space-evenly;
+}
+#metric-card-2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#metric-card-3{
+    flex: 1.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.mc-1{
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 80%;
+}
+.mc-1-icon{
+    margin-top: 1.2vw;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1.2vw;
+    height: 4.5vw;
+    border-radius: 50%;
+    background-color: var(--dark-blue);
+    width: 4.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.fai{
+    height: 2vw;
+    color: #fff;
+}
+.mc-1-metric{
+    margin-top: 1vw;
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 500;
+}
+.mc-1-name{
+    margin-top: 0.4vw;
+    font-size: 1vw;
+    color: #393838;
+    font-weight: 600;
+}
+.recharts-legend-item-text{
+    font-weight: 500;
+}
+.recharts-surface{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.recharts-default-legend{
+
+}
+.recharts-wrapper{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.barchart{
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+    font-weight: 500;
+}
+@media (max-width: 768px) {
+    #metric-card-2 {
+      height: 20px;
+    }
+  }
+  
+  
+  .datagrid{
+    width: 95%;
+    height: auto;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.16) 1px 1px 5px 0px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .job-history h3{
+    margin-left: 1.5vw;
+    margin-bottom: 1vw;
+    color: #1d3557;
+  }
+
+  .myHeader {
+    font-weight: bold;
+  }
+  .MuiDataGrid-columnHeaderTitle{
+    font-weight: 600!important;
+    text-align: center;
+    color: #1d3557;
+  }
+
+  .recently-added h3{
+    margin: 0.9vw;
+    margin-top: 1.2vw;
+    margin-bottom: 1.2vw;
+    font-size: 1.1vw;
+    color: #1d3557;
+  }
+  .clock{
+    color: #1d3557;
+    font-size: 1.1vw;
+  }
+  .small-jd-cards{
+    display: flex;
+    flex-direction: column;
+  }
+  .mid-hr{
+    background-color: rgb(196, 190, 190) !important;
+    height: 0.10vw !important;
+    border: none;
+    opacity: 0.8;
+  }
+  .jd-card{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 4vw;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.16) 1px 1px 1px 0px;
+  }
+  .jd-card-lft{
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .jd-card-lft img{
+    height: 3vw;
+    width: 4vw;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+  }
+  .jd-card-rgt{
+    flex: 4;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #job-role{
+    font-size: 1vw;
+    font-weight: 600;
+    color: #1d3557;
+  }
+  .jdc-rgt-btm{
+    margin-top: 4px;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.8vw;
+    font-weight: 500;
+    justify-content: space-between;
+  }
+
+  #company{
+    color: #393838;
+  }
+  #date{
+    color: #a2a1a1;
+    margin-right: 1vw;
+    font-weight: 600;
+  }
+.view-more{
+    
+    color: #1d3557!important;
+    font-weight: 600;
+    align-items: right;
+    text-align: right;
+    margin-top: 15px;
+    font-size: 0.9vw;
+    
+}
+.view-more a{
+  color: #1d3557!important;
+}
+.recently-added a{
+    text-decoration: none;
+    color: #1d3557;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
